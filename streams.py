@@ -7,7 +7,7 @@ st.set_page_config(page_title='Bus Route Analysis', layout='wide')
 
 # Define a function to get a MySQL database connection
 def get_connection():    
-    return pymysql.connect(host='127.0.0.1', user='root', passwd='Sujan#12345', database='redbus')
+    return pymysql.connect(host='127.0.0.1', user='root', passwd='your password', database='redbus')
 
 # Function to fetch route names starting with a specific letter, arranged alphabetically
 def fetch_route_names(connection, starting_letter):
